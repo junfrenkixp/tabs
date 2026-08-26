@@ -7,7 +7,6 @@ tabs.forEach(tab => {
     tab.classList.add('is-active');
 
     const dataTab = tab.dataset.tab;
-    //console.log(dataTab)
 
     tabsContent.forEach(tabContent => {
       const dataTabContent = tabContent.dataset.tabContent;
